@@ -75,6 +75,7 @@ export function ProdutoCreate() {
                 produto
             )
                 if(resp){
+                    
                     console.log(resp.id)
                 }
 

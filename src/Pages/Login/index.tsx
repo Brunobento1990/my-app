@@ -65,7 +65,7 @@ export function Login() {
                     path: '/',
                 });
 
-                navigate("/home")
+                navigate("/")
                 
             } else {
                 setText("Confirmar")
