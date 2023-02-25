@@ -5,7 +5,7 @@ import { useState, ChangeEvent } from "react"
 import { InputCustom } from "../../Components/Input/InputCustom";
 import { AlertCustom } from "../../Components/Alert";
 import { db } from "../../Firebase/Config";
-import { collection , addDoc , Timestamp } from "firebase/firestore";
+import { collection , addDoc } from "firebase/firestore";
 
 export function ProdutoCreate() {
 
@@ -75,7 +75,6 @@ export function ProdutoCreate() {
                 produto
             )
                 if(resp){
-                    
                     console.log(resp.id)
                 }
 
